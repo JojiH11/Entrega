@@ -1,0 +1,110 @@
+@import url(<link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet">);
+
+
+
+*{
+    background: #E49BFF;
+    font-family: "Nerko One", cursive;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.logo{
+    padding-top: 10px;
+    margin-left: 10px;
+    width: 10%;
+}
+
+main{
+    display: flex;
+    margin-bottom: 80px;
+    margin-left: 80px;
+}
+
+.text-area{
+    border: none;
+    color: #F8F9D7;
+    margin-top: 50px;
+    text-transform: lowercase;
+    background-color: #E49BFF;
+}
+::placeholder {color:blueviolet; }
+    .text-area:focus{
+        outline: none;
+    }
+
+.mensaje{
+    background:#F8F9D7;
+    background-image: url(imagenes/panda\ _con\ _bambu.png);
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 20px;
+    color: #850F8D;
+    margin-left: 98px;
+    margin-top: 20px;
+    padding-left: 20px;
+    position: fixed;
+    width: 400px;
+    height: 700px;
+    top: 40px;
+    left: 1000px;
+    gap: 0px;
+    border-radius: 32px 0px 0px 0px;
+    opacity: 0px;
+
+}
+.mensaje:focus{
+    outline: none;
+}
+
+.botones{
+    display: flex;
+    margin-top: 20px;
+}
+
+.btn-encriptar{
+    background-color: #C738BD;
+    border: 1px solid rgb(180, 111, 244);
+    border-radius: 24px;
+    color: #F8F9D7;
+    cursor: pointer;
+    height: 67px;
+    width: 400px;
+    top: 885px;
+    left: 240px;
+    gap: 50px;
+    opacity: 0px;
+}
+.btn-desencriptar{
+    background-color: #F8F9D7;
+    border: 1px solid blueviolet;
+    border-radius: 24px;
+    color: #C738BD;
+    cursor: pointer;
+    height: 67px;
+    width: 400px;
+    top: 885px;
+    left: 240px;
+    gap: 50px;
+    opacity: 0px;
+}
+
+.copiar{
+    background-color: #94FFD8;
+    border: 1px solid blueviolet;
+    border-radius: 24px;
+    color: #AF47D2;
+    cursor: pointer;
+    height: 67px;
+    width: 400px;
+    position: absolute;
+    margin-top: 650px;
+    margin-left: 108px;
+    gap: 24px;
+}
+
+.informacion{
+    color: #850F8D;
+    font-size: 18px;
+}
